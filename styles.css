@@ -52,8 +52,11 @@ body {
   display: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   .container {
+    display: none;
+  }
+  .header {
     display: none;
   }
   .mob {
